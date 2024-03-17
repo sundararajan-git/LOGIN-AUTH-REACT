@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(9, 19, 27);
+}
+.container {
+  box-shadow: 0px 0px 7px 7px gray;
+  border-radius: 5px;
+  width: 280px;
+  height: 370px;
+}
+button {
+  color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 4px;
+}
+form input {
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: black;
+}
+#login-btn {
+  color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#login-btn:hover {
+  background-color: green;
+  color: white;
+}
+#pre {
+  color: red;
+}
+pre {
+  font-size: 13px;
+}
+.loginSuccess {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 5px;
+}
+#logout-btn {
+  color: black;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+#logout-btn:hover {
+  background-color: red;
+  color: white;
+}
+img {
+  width: 30px;
+  object-fit: contain;
+  background-color: transparent;
+  border-radius: 5px;
+}
+#g-btn {
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 30%;
+  color: black;
+  width: 40%;
+  padding-left: 5px;
+}
+span {
+  position: relative;
+  color: black;
+  top: -10px;
+  left: 10px;
+}
